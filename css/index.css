@@ -7,6 +7,9 @@
 .header{
     width: 100%;
     height: 650px;
+    background-image: url(../imagenes/header.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 /* Nav */
@@ -16,4 +19,10 @@
 }
 svg{
     color: white;
+}
+
+header{
+    width: 100%;
+    height: 100%x;
+    
 }

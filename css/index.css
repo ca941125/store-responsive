@@ -50,3 +50,11 @@ h1{
     width: 100%;
     margin-top: 20px;
 }
+
+/*Section*/
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

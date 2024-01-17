@@ -38,3 +38,15 @@ h1{
     padding-top: 300px;
     color: white;
 }
+
+/*Contenedor*/
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+/*Carrusel*/
+.carrusel{
+    width: 100%;
+    margin-top: 20px;
+}

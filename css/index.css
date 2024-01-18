@@ -81,3 +81,24 @@ footer{
     padding: 0px;
     margin-bottom: 0px;
 }
+
+
+/* responsive */
+@media screen and (min-width: 43em) and (max-width: 68.9){
+
+    .title{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .card{
+        margin-top: 50px;
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+}
+

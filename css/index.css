@@ -102,3 +102,31 @@ footer{
     }
 }
 
+@media screen and (min-width: 1100px){
+
+    .title{
+        font-size: 60px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    section{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+    .card{
+        margin: 0px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+    }
+    .card-text{
+        margin-top: 20px;
+    }
+    .btn{
+        margin-top: 30%;
+        width: 100%;
+    }
+}
